@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+div.container{
+  /* background-color: blue; */
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+}
+p.firstP{
+  text-decoration: underline 2px;
+  
+}
+p.secondP{
+  margin-top: 5px;
+  font-size: 15px;
+  
+  text-decoration: underline 1px;
+}
+div.container2{
+ /*  background-color: rgb(192, 113, 17); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
