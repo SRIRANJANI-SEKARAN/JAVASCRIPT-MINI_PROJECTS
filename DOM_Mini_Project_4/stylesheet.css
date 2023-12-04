@@ -1,0 +1,116 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  cursor: default;
+}
+div.container1{
+  margin: auto;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time{
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+h1{
+  white-space: nowrap;
+}
+div.container2{
+  /* background-color: rgb(141, 118, 118); */
+  width: 70%;
+  margin-top: 2%;
+}
+.topicsLi {
+  list-style-type: none;
+}
+.mainList{
+  display: flex;
+  justify-content: space-between;
+ /*  justify-content: space-between; */
+  margin-bottom: 5px;
+  padding: 2%;
+  border-radius: 5px;
+}
+.footerTopic{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 7px;
+}
+.socialLinks{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.bioPara{
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+
+}
+.paraTitleSpan{
+  font-weight: bold;
+}
+.paraDiv{
+  display: flex;
+  vertical-align: top;
+  white-space: normal;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.titlesLi{
+  list-style-type: none;
+}
+.titlesLi:first-child{
+  margin-top: 5px;
+}
+
+
+.paraSkillsSpan{
+  font-weight: bold;
+}
+.skillLi{
+  list-style-image: url('https://img.icons8.com/?size=16&id=49392&format=png');
+  list-style-position: inside;
+}
+.skillLi:first-child{
+  margin-top: 5px;
+}
+
+.paraQualificationsSpan{
+  font-weight: bold;
+}
+.qualificationLi{
+  list-style-image: url('https://img.icons8.com/?size=16&id=xAk0IsKqWQRi&format=png') ;
+  list-style-position: inside;
+}
+.qualificationLi:first-child{
+  margin-top: 8px;
+}
+
+
+.keyWordPara{
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 120%;
+}
+.keyWordsDiv{
+  margin-left: 40px;
+  padding: 10px;
+}
+.keyDiv{
+   display: inline-block; 
+  margin: 5px;
+  margin-right: 2%;
+  padding: 8px;
+  white-space: normal;
+  
+  border-radius: 50px
+}
