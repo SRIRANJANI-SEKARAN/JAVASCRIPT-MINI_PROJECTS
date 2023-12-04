@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(11, 117, 117, 0.521);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.container{
+  padding: 50px;
+  border: 5px solid black;
+  max-width: 500px;
+  /* margin: 25vh auto; */
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.178);
+ 
+}
+.picks{
+  background-color: transparent;
+  background-color:  teal;
+  border: none;
+  padding: 20px;
+  border-radius: 50%;
+  border: 6px solid whitesmoke;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: transform 0.2s;margin-right: 5px;
+ 
+}
+button.picks:hover{
+  transform: scale(1.1);
+  background-color: whitesmoke;
+  border: 6px solid teal ;
+}
+button.picks:active{
+  background-color:  teal;
+  border: 6px solid whitesmoke;
+}
+img{
+  width: 60px;
+}
+p.result{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px auto;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+p.picked{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+p.score{
+  margin:10px ;
+  font-size: 22px;
+  font-weight: 600;
+}
+.display{
+    font-size: 25px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+button.reset{
+  padding: 8px 15px;
+  font-size: medium;
+  font-weight: 700;
+  background-color:black ;
+  border: 2px solid rgb(243, 218, 78);
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+  color: white;
+  cursor: pointer;
+}
+button.reset:hover{
+  transform: scale(1.1);
+  background-color: rgb(243, 218, 78);
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+button.reset:active{
+  background-color: black ;
+  border: 2px solid rgb(243, 218, 78);
+  color: white;
+}
